@@ -6,8 +6,7 @@ export default class App extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.f20}>Hello World!</Text>
-                <Simples />
+                <Simples texto='Flexivel!!!!' />
             </View>
         )
     }
@@ -19,7 +18,4 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
-    f20:{
-        fontSize: 40,
-    }
 })

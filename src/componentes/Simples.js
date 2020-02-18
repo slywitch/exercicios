@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export default function() {
-    return <Text>Simples!</Text>
+export default function(props) {
+    return <Text>{props.texto}</Text>
 }
